@@ -9,7 +9,33 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("bottom_bg")
+                .resizable()
+                .scaledToFill()
+                .frame(width: .screenWidth, height: .screenWidth)
+                
+            VStack{
+                
+                HStack{
+                    Button {
+                        
+                    } label: {
+                        Image("back")
+                            .resizable()
+                            .frame(width:20, height:20)
+                        
+                    }
+                }
+                Spacer()
+            }
+            
+        }
+        .background(Color.white)
+        .navigationTitle("")
+        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(true)
+        .ignoresSafeArea()
     }
 }
 

@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct RoundButtons: View {
+    @State var title: String = "Title"
+    var didTap: (()->())?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button{
+            didTap?()
+        }label: {
+            Text(title)
+                .font(.customfont(.semibold, fontSize: 25))
+                .foregroundColor(.white)
+                .multilineTextAlignment(.center)
+                
+        }
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+        .background(Color.pri)
+        .cornerRadius(20)
     }
 }
 
 #Preview {
     RoundButtons()
+        .padding(20)
 }

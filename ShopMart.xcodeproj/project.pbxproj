@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3B2884852C29F8FC00A94037 /* ShopMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884842C29F8FC00A94037 /* ShopMartApp.swift */; };
-		3B2884872C29F8FC00A94037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884862C29F8FC00A94037 /* ContentView.swift */; };
 		3B2884892C29F8FD00A94037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884882C29F8FD00A94037 /* Assets.xcassets */; };
 		3B28848C2C29F8FD00A94037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B28848B2C29F8FD00A94037 /* Preview Assets.xcassets */; };
 		3B2884962C29F8FD00A94037 /* ShopMartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884952C29F8FD00A94037 /* ShopMartTests.swift */; };
 		3B2884A02C29F8FD00A94037 /* ShopMartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28849F2C29F8FD00A94037 /* ShopMartUITests.swift */; };
 		3B2884A22C29F8FD00A94037 /* ShopMartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884A12C29F8FD00A94037 /* ShopMartUITestsLaunchTests.swift */; };
+		3B2884B72C29FB7700A94037 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884AF2C29FB7700A94037 /* Gilroy-Regular.ttf */; };
+		3B2884B82C29FB7700A94037 /* HKGrotesk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B02C29FB7700A94037 /* HKGrotesk-Regular.otf */; };
+		3B2884B92C29FB7700A94037 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B12C29FB7700A94037 /* Gilroy-SemiBold.ttf */; };
+		3B2884BA2C29FB7700A94037 /* HKGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B22C29FB7700A94037 /* HKGrotesk-Bold.otf */; };
+		3B2884BB2C29FB7700A94037 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B32C29FB7700A94037 /* Gilroy-Bold.ttf */; };
+		3B2884BC2C29FB7700A94037 /* Sveningsson.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B42C29FB7700A94037 /* Sveningsson.ttf */; };
+		3B2884BD2C29FB7700A94037 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B52C29FB7700A94037 /* Gilroy-Medium.ttf */; };
+		3B2884BE2C29FB7700A94037 /* Airbnb-Cereald-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884B62C29FB7700A94037 /* Airbnb-Cereald-Medium.otf */; };
+		3B2884C62C29FEB800A94037 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884C52C29FEB800A94037 /* WelcomeView.swift */; };
+		3B2884C82C29FF5200A94037 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2884C72C29FF5200A94037 /* Launch Screen.storyboard */; };
+		3B2884CA2C2A070D00A94037 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884C92C2A070D00A94037 /* SwiftUIView.swift */; };
+		3B2884CC2C2AAD9C00A94037 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884CB2C2AAD9C00A94037 /* SignInView.swift */; };
+		3B2884CE2C2AAEB500A94037 /* RoundButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884CD2C2AAEB500A94037 /* RoundButtons.swift */; };
+		3B2884D02C2F20AE00A94037 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2884CF2C2F20AE00A94037 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		3B2884812C29F8FC00A94037 /* ShopMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2884842C29F8FC00A94037 /* ShopMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMartApp.swift; sourceTree = "<group>"; };
-		3B2884862C29F8FC00A94037 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B2884882C29F8FD00A94037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B28848B2C29F8FD00A94037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B2884912C29F8FD00A94037 /* ShopMartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopMartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,21 @@
 		3B28849B2C29F8FD00A94037 /* ShopMartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopMartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28849F2C29F8FD00A94037 /* ShopMartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMartUITests.swift; sourceTree = "<group>"; };
 		3B2884A12C29F8FD00A94037 /* ShopMartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B2884AF2C29FB7700A94037 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		3B2884B02C29FB7700A94037 /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
+		3B2884B12C29FB7700A94037 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		3B2884B22C29FB7700A94037 /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		3B2884B32C29FB7700A94037 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		3B2884B42C29FB7700A94037 /* Sveningsson.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sveningsson.ttf; sourceTree = "<group>"; };
+		3B2884B52C29FB7700A94037 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		3B2884B62C29FB7700A94037 /* Airbnb-Cereald-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Airbnb-Cereald-Medium.otf"; sourceTree = "<group>"; };
+		3B2884BF2C29FC2A00A94037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B2884C52C29FEB800A94037 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3B2884C72C29FF5200A94037 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3B2884C92C2A070D00A94037 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3B2884CB2C2AAD9C00A94037 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3B2884CD2C2AAEB500A94037 /* RoundButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtons.swift; sourceTree = "<group>"; };
+		3B2884CF2C2F20AE00A94037 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +121,16 @@
 		3B2884832C29F8FC00A94037 /* ShopMart */ = {
 			isa = PBXGroup;
 			children = (
+				3B2884C32C29FE5100A94037 /* ViewModel */,
+				3B2884C22C29FE2900A94037 /* Model */,
+				3B2884C12C29FE2100A94037 /* View */,
+				3B2884C02C29FE0C00A94037 /* UICommon */,
+				3B2884BF2C29FC2A00A94037 /* Info.plist */,
+				3B2884AE2C29FA6F00A94037 /* Font */,
 				3B2884842C29F8FC00A94037 /* ShopMartApp.swift */,
-				3B2884862C29F8FC00A94037 /* ContentView.swift */,
 				3B2884882C29F8FD00A94037 /* Assets.xcassets */,
 				3B28848A2C29F8FD00A94037 /* Preview Content */,
+				3B2884C72C29FF5200A94037 /* Launch Screen.storyboard */,
 			);
 			path = ShopMart;
 			sourceTree = "<group>";
@@ -125,6 +158,62 @@
 				3B2884A12C29F8FD00A94037 /* ShopMartUITestsLaunchTests.swift */,
 			);
 			path = ShopMartUITests;
+			sourceTree = "<group>";
+		};
+		3B2884AE2C29FA6F00A94037 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3B2884B62C29FB7700A94037 /* Airbnb-Cereald-Medium.otf */,
+				3B2884B32C29FB7700A94037 /* Gilroy-Bold.ttf */,
+				3B2884B52C29FB7700A94037 /* Gilroy-Medium.ttf */,
+				3B2884AF2C29FB7700A94037 /* Gilroy-Regular.ttf */,
+				3B2884B12C29FB7700A94037 /* Gilroy-SemiBold.ttf */,
+				3B2884B22C29FB7700A94037 /* HKGrotesk-Bold.otf */,
+				3B2884B02C29FB7700A94037 /* HKGrotesk-Regular.otf */,
+				3B2884B42C29FB7700A94037 /* Sveningsson.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3B2884C02C29FE0C00A94037 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				3B2884C92C2A070D00A94037 /* SwiftUIView.swift */,
+				3B2884CD2C2AAEB500A94037 /* RoundButtons.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		3B2884C12C29FE2100A94037 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B2884C42C29FE9500A94037 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B2884C22C29FE2900A94037 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B2884C32C29FE5100A94037 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B2884C42C29FE9500A94037 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3B2884C52C29FEB800A94037 /* WelcomeView.swift */,
+				3B2884CB2C2AAD9C00A94037 /* SignInView.swift */,
+				3B2884CF2C2F20AE00A94037 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +320,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2884BC2C29FB7700A94037 /* Sveningsson.ttf in Resources */,
+				3B2884BE2C29FB7700A94037 /* Airbnb-Cereald-Medium.otf in Resources */,
 				3B28848C2C29F8FD00A94037 /* Preview Assets.xcassets in Resources */,
+				3B2884B82C29FB7700A94037 /* HKGrotesk-Regular.otf in Resources */,
+				3B2884B72C29FB7700A94037 /* Gilroy-Regular.ttf in Resources */,
+				3B2884BB2C29FB7700A94037 /* Gilroy-Bold.ttf in Resources */,
+				3B2884C82C29FF5200A94037 /* Launch Screen.storyboard in Resources */,
+				3B2884BA2C29FB7700A94037 /* HKGrotesk-Bold.otf in Resources */,
+				3B2884B92C29FB7700A94037 /* Gilroy-SemiBold.ttf in Resources */,
+				3B2884BD2C29FB7700A94037 /* Gilroy-Medium.ttf in Resources */,
 				3B2884892C29F8FD00A94037 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +355,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2884872C29F8FC00A94037 /* ContentView.swift in Sources */,
+				3B2884D02C2F20AE00A94037 /* LoginView.swift in Sources */,
 				3B2884852C29F8FC00A94037 /* ShopMartApp.swift in Sources */,
+				3B2884C62C29FEB800A94037 /* WelcomeView.swift in Sources */,
+				3B2884CC2C2AAD9C00A94037 /* SignInView.swift in Sources */,
+				3B2884CE2C2AAEB500A94037 /* RoundButtons.swift in Sources */,
+				3B2884CA2C2A070D00A94037 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +527,15 @@
 				DEVELOPMENT_TEAM = 8FW8WL5PNC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShopMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +543,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.ShopMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +564,15 @@
 				DEVELOPMENT_TEAM = 8FW8WL5PNC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShopMart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +580,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahiti.ShopMart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
