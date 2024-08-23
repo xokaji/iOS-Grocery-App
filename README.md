@@ -1,50 +1,22 @@
-Online Book Ordering System
+#  IOS Grocery Application
 
-This is an online book ordering system that allows users to search for books purchase them, manage book inventory and generate sales reports according to daily weekly and monthly periods It also includes user role management for employees, managers, and administrators
-Features
+This is an online IOS Grocery Ordering System that allows users to search for products and purchase them, manage the cart. It also includes user role management for Employees and Aministrators. This IOS app is still developing and about to launch after done the SWIFTUI developments.
 
-    Search books by book name, author name, and ISBN number
+## Features
 
-    Purchase books
+* Search the Products by name.
+* Purchase products.
+* Sales reports by monthly.
+* Employee and Admin Management.
 
-    Book inventory management
+## Technology used
 
-    Sales report according to daily, weekly, and monthly periods
+* SwiftUI
+* Firebase
 
-    User role management for employees, managers, and administrators
+## Homepage
 
-Technologies Used
 
-    React
-    Redux
-    Nodejs
-    Express
-    Firestore
-    Google Authentication
 
-Getting Started
 
-To get started with this project, clone the repository and install the necessary dependencies using the following commands
 
-git clone https://github.com/chami98/Southern_Books.git
-
-cd online-book-ordering-system
-
-npm install
-
-Once the dependencies are installed, start the development server using the following command
-
-npm start
-
-Usage
-Contributing
-
-Contributions are always welcome If you would like to contribute to the Weather Application, please follow these steps:
-
-    Fork this repository
-    Create a new branch for your changes.
-    Make your changes and commit them to your branch.
-    Push your changes to your fork.
-    Create a pull request with a description of your changes
-
-Thank you for checking out the Online Book Ordering System! If you have any questions or feedback, please feel free to reach out. Happy coding
